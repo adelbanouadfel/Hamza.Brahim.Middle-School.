@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الآفات الاجتماعية والمخدرات: نحو مجتمع واعٍ وآمن</title>
+<meta name="description" content="موقع توعوي مدرسي حول الآفات الاجتماعية والمخدرات: المفهوم والأسباب والآثار والوقاية ودور التلميذ. متوسطة إبراهيم حمزة.">
+<meta name="author" content="عادل بن وادفل">
+<meta name="theme-color" content="#0f2a47">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0f2a47;--green:#1f8a5b;--orange:#e8812b;--bg:#f5f8fb;--card:#fff;--text:#1d2b3a;--muted:#5a6b7b;--line:#dde5ec;--shadow:0 4px 16px rgba(15,42,71,.09)}
+[data-theme=dark]{--navy:#0a1a2e;--bg:#0e1621;--card:#16222f;--text:#e6edf4;--muted:#9fb0c0;--line:#27384a;--shadow:0 4px 16px rgba(0,0,0,.4)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;font-family:Cairo,Tahoma,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.9;transition:background .3s,color .3s}
+a{color:var(--green)}
+header.nav{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff;display:flex;align-items:center;gap:12px;padding:10px 18px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.nav .brand{font-weight:800;font-size:1.05rem;margin-inline-end:auto;white-space:nowrap}
+.nav nav{display:flex;gap:4px;flex-wrap:wrap}
+.nav nav a{color:#d6e3f0;text-decoration:none;padding:4px 10px;border-radius:8px;font-size:.9rem;transition:.2s}
+.nav nav a:hover,.nav nav a.on{background:var(--green);color:#fff}
+.ibtn{background:rgba(255,255,255,.12);border:0;color:#fff;border-radius:8px;padding:6px 11px;cursor:pointer;font:inherit;font-size:.9rem}
+.ibtn:hover{background:var(--orange)}
+#menuBtn{display:none}
+@media(max-width:1000px){
+ #menuBtn{display:inline-block}
+ .nav nav{position:fixed;top:0;right:0;height:100%;width:250px;background:var(--navy);flex-direction:column;padding:70px 14px 20px;transform:translateX(100%);transition:transform .3s;overflow:auto;z-index:60}
+ .nav nav.open{transform:none}
+ .nav nav a{font-size:1rem;padding:8px 12px}
+}
+#veil{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:55}
+#veil.show{display:block}
+.hero{background:linear-gradient(135deg,var(--navy),#16507a 60%,var(--green));color:#fff;padding:54px 20px 64px}
+.hero .in{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.2fr 1fr;gap:34px;align-items:center}
+@media(max-width:800px){.hero .in{grid-template-columns:1fr}}
+.school{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.logo{width:72px;height:72px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;font-size:.7rem;text-align:center;overflow:hidden;border:3px solid var(--orange);flex-shrink:0}
+.logo img{width:100%;height:100%;object-fit:cover}
+.hero h1{font-family:Amiri,serif;font-size:clamp(1.9rem,4.5vw,3.2rem);line-height:1.5;margin:0 0 14px}
+.hero p{font-size:1.08rem;max-width:60ch;margin:0 0 14px;color:#e5eef6}
+.quote{border-inline-start:4px solid var(--orange);padding:4px 14px;font-family:Amiri,serif;font-size:1.25rem;margin:18px 0}
+.btn{display:inline-block;background:var(--orange);color:#fff;border:0;padding:11px 26px;border-radius:30px;font:700 1rem Cairo,sans-serif;text-decoration:none;cursor:pointer;transition:.2s;margin:4px}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.btn.alt{background:transparent;border:2px solid #fff}
+.cover{aspect-ratio:4/3;border-radius:18px;background:rgba(255,255,255,.12);border:2px dashed rgba(255,255,255,.55);display:grid;place-items:center;text-align:center;overflow:hidden;font-size:.95rem;padding:12px}
+.cover img{width:100%;height:100%;object-fit:cover}
+.upl{font-size:.8rem;margin-top:8px;color:#d6e3f0}
+.upl input{max-width:100%;font-size:.8rem}
+main{max-width:1100px;margin:auto;padding:10px 18px 40px}
+section{padding:44px 0 6px}
+h2{font-family:Amiri,serif;font-size:2rem;color:var(--navy);margin:0 0 6px;display:flex;align-items:center;gap:10px}
+[data-theme=dark] h2{color:#9fd8ff}
+h2::before{content:"";width:8px;height:34px;border-radius:4px;background:var(--green)}
+.lead{color:var(--muted);margin:0 0 18px;max-width:75ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow);transition:transform .25s}
+.card:hover{transform:translateY(-3px)}
+.card h3{margin:0 0 6px;font-size:1.1rem;color:var(--green)}
+.card p{margin:0}
+.card.warn{border-top:4px solid var(--orange)}
+.card.warn h3{color:var(--orange)}
+.note{background:rgba(232,129,43,.12);border-inline-start:5px solid var(--orange);border-radius:10px;padding:12px 16px;margin:18px 0}
+.note.ok{background:rgba(31,138,91,.12);border-color:var(--green)}
+ul.l{padding-inline-start:22px;margin:8px 0}
+ul.l li{margin:4px 0}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+.quiz .q{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
+.q p{font-weight:700;margin:0 0 8px}
+.q label{display:block;padding:6px 12px;border-radius:8px;cursor:pointer;border:1px solid transparent}
+.q label:hover{background:rgba(31,138,91,.1)}
+.q label.right{background:rgba(31,138,91,.2);border-color:var(--green)}
+.q label.wrong{background:rgba(220,60,60,.18);border-color:#d33}
+.q .fb{font-size:.9rem;color:var(--muted);margin-top:6px;display:none}
+#result{font-size:1.2rem;font-weight:800;margin:14px 0;padding:14px;border-radius:12px;background:var(--card);border:2px solid var(--green);display:none}
+footer{background:var(--navy);color:#fff;text-align:center;padding:40px 18px 26px;margin-top:40px}
+footer .msg{font-family:Amiri,serif;font-size:clamp(1.3rem,3vw,1.9rem);max-width:800px;margin:0 auto 22px;line-height:1.9;color:#ffd9b0}
+footer p{margin:2px 0}
+footer a{color:#9fe3c0}
+#top{position:fixed;bottom:20px;left:20px;width:46px;height:46px;border-radius:50%;border:0;background:var(--green);color:#fff;font-size:1.3rem;cursor:pointer;box-shadow:var(--shadow);display:none;z-index:40}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+@media print{
+ header.nav,#top,#veil,.upl,.btn,#quizBtns{display:none!important}
+ body{background:#fff;color:#000;font-size:11pt}
+ .hero{background:#fff;color:#000;padding:10px}.hero p,.hero h1{color:#000}
+ .card,.q{box-shadow:none;break-inside:avoid}
+ .rv{opacity:1;transform:none}
+ footer{background:#fff;color:#000}footer .msg{color:#000}
+ section{padding-top:14px}
+}
+</style>
+</head>
+<body>
+<div id="veil"></div>
+<header class="nav">
+ <button class="ibtn" id="menuBtn" aria-label="فتح القائمة">☰</button>
+ <span class="brand">نحو مجتمع واعٍ وآمن</span>
+ <nav id="menu">
+  <a href="#home">الرئيسية</a><a href="#concept">المفهوم</a><a href="#drugs">المخدرات</a><a href="#causes">الأسباب</a><a href="#effects">الآثار</a><a href="#prevent">الوقاية</a><a href="#student">دور التلميذ</a><a href="#solutions">الحلول</a><a href="#conclusion">الخاتمة</a><a href="#quiz">الاختبار</a><a href="#refs">المراجع</a><a href="#school">المؤسسة</a>
+ </nav>
+ <button class="ibtn" id="themeBtn">🌙 الوضع الداكن</button>
+ <button class="ibtn" id="printBtn">🖨 طباعة</button>
+</header>
+
+<div class="hero" id="home">
+ <div class="in">
+  <div>
+   <div class="school">
+    <div class="logo" id="logoBox">شعار المؤسسة</div>
+    <strong>متوسطة إبراهيم حمزة</strong>
+   </div>
+   <h1>الآفات الاجتماعية والمخدرات: نحو مجتمع واعٍ وآمن</h1>
+   <p>الآفات الاجتماعية سلوكيات وظواهر تضرّ بصحة الفرد وأسرته ومجتمعه، وتبدأ غالبًا بخطوة تبدو صغيرة ثم تكبر بصمت. وحين نفهمها مبكرًا نستطيع أن نواجهها بالمعرفة والحوار والتعاون.</p>
+   <div class="quote">«الوعي هو خط الدفاع الأول، والوقاية خير من العلاج.»</div>
+   <a class="btn" href="#concept">ابدأ قراءة البحث</a>
+   <a class="btn alt" href="#quiz">اختبر معلوماتك</a>
+  </div>
+  <div>
+   <div class="cover" id="coverBox">صورة الواجهة<br>(يمكن استبدالها بالزر أدناه)</div>
+   <div class="upl">
+    <label>شعار المؤسسة: <input type="file" accept="image/*" data-target="logoBox"></label><br>
+    <label>صورة الواجهة: <input type="file" accept="image/*" data-target="coverBox"></label>
+   </div>
+  </div>
+ </div>
+</div>
+
+<main>
+<section id="concept" class="rv">
+ <h2>مفهوم الآفات الاجتماعية</h2>
+ <p class="lead">الآفة الاجتماعية سلوك أو ظاهرة سلبية تنتشر بين أفراد المجتمع، فتلحق الضرر بالصحة أو الأخلاق أو الأمن أو الاستقرار الأسري والدراسي، وتحتاج إلى معالجة جماعية تشارك فيها الأسرة والمدرسة والمجتمع.</p>
+ <div class="grid">
+  <div class="card"><h3>التدخين</h3><p>عادة ضارة بالجهاز التنفسي والقلب، وكثيرًا ما تكون بوابة إلى سلوكيات أخرى أشد خطرًا.</p></div>
+  <div class="card"><h3>تعاطي المخدرات</h3><p>استعمال مواد تؤثر في الدماغ والسلوك، وقد يؤدي إلى الاعتماد عليها وإلى مشكلات صحية وقانونية.</p></div>
+  <div class="card"><h3>العنف</h3><p>اعتداء لفظي أو جسدي يولّد الخوف ويهدم الثقة داخل المدرسة والأسرة.</p></div>
+  <div class="card"><h3>التنمر</h3><p>إيذاء متكرر لزميل بالسخرية أو الإقصاء أو التهديد، وآثاره النفسية عميقة.</p></div>
+  <div class="card"><h3>الإدمان الرقمي</h3><p>الإفراط في استعمال الهاتف والألعاب حتى يضعف النوم والتركيز والعلاقات الأسرية.</p></div>
+  <div class="card"><h3>التسرب المدرسي</h3><p>انقطاع التلميذ عن الدراسة قبل إتمامها، فتضيع عليه فرص التعلم والعمل.</p></div>
+ </div>
+</section>
+
+<section id="drugs" class="rv">
+ <h2>المخدرات وأنواعها</h2>
+ <p class="lead">المخدرات والمؤثرات العقلية مواد تغيّر عمل الدماغ، فتؤثر في المزاج والإدراك والسلوك. نعرضها هنا لأغراض التوعية فقط، دون أي تفصيل عن تحضيرها أو الحصول عليها أو استعمالها.</p>
+ <div class="grid">
+  <div class="card warn"><h3>المواد المنشِّطة</h3><p>ترفع النشاط مؤقتًا، لكنها ترهق القلب والأعصاب وتسبّب القلق واضطراب النوم.</p></div>
+  <div class="card warn"><h3>المواد المثبِّطة والمهدّئة</h3><p>تبطئ نشاط الجهاز العصبي، وقد تضعف التركيز والذاكرة وتؤدي إلى الاعتماد النفسي والجسدي.</p></div>
+  <div class="card warn"><h3>المواد المهلوِسة</h3><p>تشوّش الإدراك والحكم على الأمور، فتعرّض الشخص لحوادث وتصرفات خطرة.</p></div>
+  <div class="card warn"><h3>الأدوية المستعملة دون وصفة</h3><p>الدواء النافع بوصفة الطبيب قد يصبح ضارًا حين يُستعمل دون إشراف صحي.</p></div>
+ </div>
+ <div class="note"><strong>أضرارها عامة:</strong>
+  <ul class="l"><li><b>صحيًا:</b> اضطراب وظائف الدماغ والقلب والكبد، وضعف المناعة.</li><li><b>نفسيًا:</b> القلق والاكتئاب وتقلب المزاج وفقدان السيطرة على السلوك.</li><li><b>اجتماعيًا:</b> فقدان الثقة، والعزلة، والمشكلات القانونية، وتفكك العلاقات.</li></ul></div>
+</section>
+
+<section id="causes" class="rv">
+ <h2>أسباب انتشار الآفات الاجتماعية</h2>
+ <p class="lead">لا يوجد سبب واحد يفسّر كل الحالات، فالأسباب تختلف من شخص إلى آخر، وقد تجتمع عدة عوامل معًا.</p>
+ <div class="grid">
+  <div class="card"><h3>رفقاء السوء وضغط الأقران</h3><p>الرغبة في القبول داخل المجموعة قد تدفع التلميذ إلى تقليد سلوك لا يقتنع به.</p></div>
+  <div class="card"><h3>التفكك الأسري</h3><p>غياب الحوار والرعاية والقدوة يترك الأبناء دون سند عاطفي.</p></div>
+  <div class="card"><h3>الجهل بالعواقب</h3><p>نقص المعلومة الصحيحة يجعل الأخطار تبدو بعيدة أو بسيطة.</p></div>
+  <div class="card"><h3>الفراغ</h3><p>غياب الأنشطة النافعة يدفع بعض الناشئة إلى البحث عن التسلية في مكان خاطئ.</p></div>
+  <div class="card"><h3>الصعوبات النفسية والاجتماعية</h3><p>الضغوط والحزن والفشل الدراسي قد تدفع بعضهم إلى الهروب بدل طلب المساعدة.</p></div>
+ </div>
+</section>
+
+<section id="effects" class="rv">
+ <h2>الآثار والعواقب</h2>
+ <div class="grid">
+  <div class="card warn"><h3>صحية</h3><p>تعب دائم، وضعف المناعة، واضطراب النوم، وأمراض مزمنة مع الوقت.</p></div>
+  <div class="card warn"><h3>نفسية</h3><p>قلق وعصبية وانخفاض تقدير الذات، وصعوبة في التحكم بالانفعالات.</p></div>
+  <div class="card warn"><h3>أسرية</h3><p>تراجع الثقة، وكثرة الخلافات، وإحساس الوالدين بالحزن والعجز.</p></div>
+  <div class="card warn"><h3>دراسية</h3><p>تراجع الانتباه والنتائج، وكثرة الغياب، وقد ينتهي الأمر بالتسرب.</p></div>
+  <div class="card warn"><h3>اقتصادية</h3><p>إنفاق مال الأسرة على عادة ضارة، وضياع فرص العمل في المستقبل.</p></div>
+ </div>
+ <div class="note"><strong>مثال تعليمي:</strong> تلميذ كان متفوقًا ومحبًّا لكرة القدم، ثم صار يهمل واجباته ويتغيب عن التدريب ويبتعد عن أسرته بعد مخالطة مجموعة تشجّعه على سلوك ضار. وحين تحدث إلى مستشار التوجيه وجد من يساعده على استعادة توازنه.</div>
+</section>
+
+<section id="prevent" class="rv">
+ <h2>طرق الوقاية</h2>
+ <div class="grid">
+  <div class="card"><h3>دور الأسرة</h3><p>الحوار الهادئ، والاهتمام بأصدقاء الأبناء، وتقديم القدوة الحسنة، وملاحظة التغيرات المفاجئة في السلوك.</p></div>
+  <div class="card"><h3>دور المدرسة</h3><p>الإرشاد التربوي، والتوعية في الأقسام، والإنصات للتلاميذ، وتوفير أنشطة ثقافية ورياضية.</p></div>
+  <div class="card"><h3>دور المجتمع</h3><p>تعاون الجمعيات والمساجد والنوادي والجهات الصحية في نشر الوعي وتوفير أماكن آمنة للشباب.</p></div>
+ </div>
+ <ul class="l">
+  <li>اختيار الأصدقاء الصالحين الذين يشجعون على النجاح.</li>
+  <li>ممارسة الرياضة بانتظام لتفريغ الطاقة وتحسين المزاج.</li>
+  <li>تنمية الهوايات كالقراءة والرسم والموسيقى والبرمجة.</li>
+  <li>طلب المساعدة من شخص بالغ موثوق أو مختص عند الحاجة.</li>
+ </ul>
+</section>
+
+<section id="student" class="rv">
+ <h2>دور التلميذ</h2>
+ <p class="lead">للتلميذ دور فاعل في حماية نفسه وزملائه. هذه خطوات عملية يمكنه اتباعها:</p>
+ <div class="grid">
+  <div class="card"><h3>قُل «لا» بثقة</h3><p>ارفض بوضوح وهدوء، ولا تحتج إلى تبرير طويل. جملة قصيرة مثل «لا أريد، شكرًا» تكفي.</p></div>
+  <div class="card"><h3>ابتعد عن الموقف</h3><p>غادر المكان أو غيّر الحديث، وابحث عن مجموعة أخرى تشاركك اهتماماتك.</p></div>
+  <div class="card"><h3>أخبر شخصًا موثوقًا</h3><p>تحدّث إلى أحد والديك أو أستاذ أو مستشار التوجيه إذا شعرت بضغط أو خطر.</p></div>
+  <div class="card"><h3>ساند زملاءك باحترام</h3><p>استمع إلى زميل يمرّ بصعوبة، وشجعه على طلب المساعدة، ولا تسخر منه ولا تصفه بصفة مسيئة.</p></div>
+ </div>
+</section>
+
+<section id="solutions" class="rv">
+ <h2>الحلول والتوصيات</h2>
+ <ul class="l">
+  <li>تنظيم حملات توعوية دورية داخل المؤسسة بالتعاون مع مختصين.</li>
+  <li>إعداد ملصقات ومطويات تعرض رسائل إيجابية في ساحة المدرسة وأقسامها.</li>
+  <li>إلقاء عروض مدرسية يعدّها التلاميذ ويقدمونها لزملائهم بإشراف الأساتذة.</li>
+  <li>إنشاء نوادٍ رياضية وثقافية ومسرحية تملأ أوقات الفراغ بما ينفع.</li>
+  <li>تخصيص ركن للإصغاء والإرشاد النفسي والتربوي يلجأ إليه التلاميذ بسرية واحترام.</li>
+  <li>إشراك أولياء الأمور في لقاءات توعوية حول متابعة الأبناء.</li>
+ </ul>
+</section>
+
+<section id="conclusion" class="rv">
+ <h2>خاتمة البحث</h2>
+ <div class="note ok">
+  <p>خلاصة القول إن الآفات الاجتماعية خطر يهدد الأفراد والمجتمعات، غير أنه خطر يمكن الحدّ منه بالعلم والوعي والإرادة. فالوقاية مسؤولية مشتركة تبدأ من الأسرة، وتتعزز بالمدرسة، وتكتمل بتعاون المجتمع كله.</p>
+  <p>وليتذكر كل تلميذ أن طلب المساعدة علامة شجاعة وليس ضعفًا، وأن من يمدّ يده إلى الآخرين يفتح لنفسه ولهم بابًا نحو مستقبل أفضل.</p>
+ </div>
+</section>
+
+<section id="quiz" class="quiz rv">
+ <h2>اختبار تفاعلي</h2>
+ <p class="lead">أجب عن الأسئلة التالية ثم اضغط «تصحيح الإجابات» لمعرفة نتيجتك.</p>
+ <div id="qs"></div>
+ <div id="quizBtns"><button class="btn" id="checkBtn" style="background:var(--green)">تصحيح الإجابات</button><button class="btn" id="resetBtn">إعادة الاختبار</button></div>
+ <div id="result" role="status"></div>
+</section>
+
+<section id="refs" class="rv">
+ <h2>المراجع</h2>
+ <p class="lead">مصادر موثوقة يُنصح بالرجوع إليها للتوسع (تأكد من فتح الروابط أثناء الاتصال بالإنترنت):</p>
+ <ul class="l">
+  <li><a href="https://www.who.int/health-topics/substance-abuse" target="_blank" rel="noopener">منظمة الصحة العالمية (WHO) – تعاطي المواد المؤثرة نفسيًا</a></li>
+  <li><a href="https://www.unodc.org/" target="_blank" rel="noopener">مكتب الأمم المتحدة المعني بالمخدرات والجريمة (UNODC)</a></li>
+  <li><a href="https://www.sante.gov.dz/" target="_blank" rel="noopener">وزارة الصحة الجزائرية</a></li>
+  <li>الديوان الوطني لمكافحة المخدرات وإدمانها (الجزائر): يُنصح بالرجوع إلى موقعه الرسمي.</li>
+ </ul>
+</section>
+
+<section id="school" class="rv">
+ <h2>المؤسسة</h2>
+ <div class="grid">
+  <div class="card"><h3>المؤسسة</h3><p>متوسطة إبراهيم حمزة</p></div>
+  <div class="card"><h3>إعداد وتصميم</h3><p>عادل بن وادفل</p></div>
+  <div class="card"><h3>بإشراف</h3><p>أستاذة اللغة العربية</p></div>
+  <div class="card"><h3>صفحة المؤسسة</h3><p><a href="https://www.facebook.com/share/19p87oLCsL/" target="_blank" rel="noopener">تابعونا على فيسبوك</a></p></div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="msg">«إن حماية عقول أبنائنا وصحتهم مسؤولية الجميع، وبالعلم والوعي والإرادة نبني مجتمعًا سليمًا وآمنًا.»</div>
+ <p>تصميم وإنجاز: عادل بن وادفل</p>
+ <p>بإشراف أستاذة اللغة العربية</p>
+ <p>المؤسسة: متوسطة إبراهيم حمزة</p>
+</footer>
+<button id="top" aria-label="العودة إلى الأعلى">↑</button>
+
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)};
+var menu=$('#menu'),veil=$('#veil');
+function toggle(o){menu.classList.toggle('open',o);veil.classList.toggle('show',o)}
+$('#menuBtn').onclick=function(){toggle(!menu.classList.contains('open'))};
+veil.onclick=function(){toggle(false)};
+menu.querySelectorAll('a').forEach(function(a){a.onclick=function(){toggle(false)}});
+
+// theme
+var root=document.documentElement,tb=$('#themeBtn');
+function setTheme(t){root.setAttribute('data-theme',t);tb.textContent=t==='dark'?'☀ الوضع الفاتح':'🌙 الوضع الداكن'}
+try{setTheme(localStorage.getItem('theme')||'light')}catch(e){setTheme('light')}
+tb.onclick=function(){var t=root.getAttribute('data-theme')==='dark'?'light':'dark';setTheme(t);try{localStorage.setItem('theme',t)}catch(e){}};
+$('#printBtn').onclick=function(){window.print()};
+
+// back to top + active link
+var top_=$('#top');
+top_.onclick=function(){window.scrollTo({top:0,behavior:'smooth'})};
+var links=[].slice.call(menu.querySelectorAll('a')),secs=links.map(function(a){return $(a.getAttribute('href'))});
+window.addEventListener('scroll',function(){
+ top_.style.display=window.scrollY>400?'block':'none';
+ var y=window.scrollY+120,cur=-1;
+ secs.forEach(function(s,i){if(s&&s.offsetTop<=y)cur=i});
+ links.forEach(function(a,i){a.classList.toggle('on',i===cur)});
+},{passive:true});
+
+// reveal
+var els=document.querySelectorAll('.rv');
+if('IntersectionObserver' in window){
+ var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.08});
+ els.forEach(function(e){io.observe(e)});
+}else{els.forEach(function(e){e.classList.add('in')})}
+
+// image replace
+document.querySelectorAll('input[type=file]').forEach(function(inp){
+ inp.onchange=function(){
+  var f=inp.files[0];if(!f||f.type.indexOf('image/')!==0)return;
+  var r=new FileReader();
+  r.onload=function(){var b=document.getElementById(inp.dataset.target);b.innerHTML='';var im=new Image();im.alt='صورة';im.src=r.result;b.appendChild(im)};
+  r.readAsDataURL(f);
+ };
+});
+
+// quiz
+var Q=[
+["ما المقصود بالآفة الاجتماعية؟",["سلوك سلبي ينتشر ويضر بالفرد والمجتمع","هواية مفيدة","نشاط رياضي","مادة دراسية"],0],
+["أي مما يلي يُعدّ من الآفات الاجتماعية؟",["القراءة","التنمر","التطوع","الرياضة"],1],
+["كيف تتصرف حين يضغط عليك صديق لفعل ما لا تقتنع به؟",["أوافق حتى لا أخسره","أرفض بهدوء وأبتعد عن الموقف","أسخر منه","أخفي الأمر دائمًا"],1],
+["من الأسباب المحتملة لانتشار الآفات الاجتماعية:",["الحوار الأسري","الفراغ وضغط الأقران","ممارسة الهوايات","الإرشاد المدرسي"],1],
+["أي أثر يرتبط بالجانب الدراسي؟",["تراجع النتائج وكثرة الغياب","تحسّن التركيز","زيادة الحضور","الإبداع"],0],
+["أي خطوة تساعد على الوقاية؟",["العزلة التامة","ممارسة الرياضة وتنمية الهوايات","السهر الطويل","إهمال الدراسة"],1],
+["كيف نساند زميلًا يمرّ بصعوبة؟",["نسخر منه","نصفه بصفة مسيئة","نستمع إليه ونشجعه على طلب المساعدة","نتجاهله"],2],
+["طلب المساعدة من شخص بالغ موثوق يُعدّ:",["ضعفًا","علامة شجاعة","عيبًا","أمرًا غير مفيد"],1],
+["الوقاية من الآفات الاجتماعية مسؤولية:",["الأسرة وحدها","المدرسة وحدها","الجميع بالتعاون","الشرطة وحدها"],2]
+];
+var box=$('#qs'),res=$('#result');
+function build(){
+ box.innerHTML='';
+ Q.forEach(function(q,i){
+  var d=document.createElement('div');d.className='q';
+  var h='<p>'+(i+1)+'. '+q[0]+'</p>';
+  q[1].forEach(function(o,j){h+='<label><input type="radio" name="q'+i+'" value="'+j+'"> '+o+'</label>'});
+  d.innerHTML=h;box.appendChild(d);
+ });
+ res.style.display='none';
+}
+build();
+$('#checkBtn').onclick=function(){
+ var score=0,unanswered=0;
+ Q.forEach(function(q,i){
+  var labels=box.children[i].querySelectorAll('label'),sel=box.querySelector('input[name=q'+i+']:checked');
+  labels.forEach(function(l){l.classList.remove('right','wrong')});
+  if(!sel){unanswered++;return}
+  if(+sel.value===q[2]){score++;labels[q[2]].classList.add('right')}
+  else{sel.parentNode.classList.add('wrong');labels[q[2]].classList.add('right')}
+ });
+ var msg=score>=8?'ممتاز! أنت واعٍ بالموضوع.':score>=5?'جيد، راجع بعض الأقسام لتتحسن نتيجتك.':'حاول مجددًا بعد مراجعة محتوى الموقع.';
+ res.textContent='نتيجتك: '+score+' من '+Q.length+' — '+msg+(unanswered?' (أسئلة بلا إجابة: '+unanswered+')':'');
+ res.style.display='block';res.scrollIntoView({behavior:'smooth',block:'center'});
+};
+$('#resetBtn').onclick=build;
+})();
+</script>
+</body>
+</html>
